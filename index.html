@@ -7,43 +7,65 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/cursos.css">
+    <link rel="stylesheet" href="./styles/home.css">
 
     <title> CDI - Comissão de Informática </title>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="logo">
-                <img src="./img/Logo CDI.png" alt="" srcset="">
-                <p>Comissão Discente de Informática</p>
-            </div>
-            <nav>
-                <ul>
-                    <li> <a href="#home"> Home </a> </li>
-                    <li> <a href="#cursos"> Cursos </a> </li>
-                    <li> <a href="#membros"> Membros </a> </li>
-                    <li> <a href="#contato"> Contato </a> </li>
-                </ul>
-            </nav>
-        </header>
+        <section>
+            <div id="home" class="home">
+                <header class="container">
+                    <div class="logo">
+                        <img src="./img/Logo CDI.png" alt="" srcset="">
+                        <p>Comissão Discente de Informática</p>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li> <a href="#home"> Home </a> </li>
+                            <li> <a href="#cursos"> Cursos </a> </li>
+                            <li> <a href="#membros"> Membros </a> </li>
+                            <li> <a href="#contato"> Contato </a> </li>
+                        </ul>
+                    </nav>
+                </header>
 
+                <div class="welcome container">
+                    <div class="title-welcome">
+                        <h3>Somos a comissão responsável pelos cursos de </h3>
+                        <h1>Tecnologia da UNICAMP</h1>
+                    </div>
+                    <div class="img-welcome">
+                        <img src="./img/3d-computer.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </section>
         <main>
-            <section id="home" class="welcome">
-                <div class="title-welcome">
-                    <h3>Somos a comissão responsável pelos cursos de <br> </h3>
-                    <h1>Tecnologia da UNICAMP</h1>
+
+            <div class="cursos container" id="cursos">
+                <h1> CURSOS </h1>
+                <div class="cursos-body">
+                    <div class="tads">
+                        <h3> Tecnologia em Análise e Desenvolvimento de Sistemas </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida ex arcu, ut pellentesque felis maximus vel. Curabitur in justo ac sem luctus varius vel non ligula. Proin varius commodo nunc, quis feugiat odio vulputate nec. Sed eu orci neque. Fusce quis molestie leo, eu laoreet nulla. Praesent rutrum diam odio, vitae commodo urna placerat non. In sagittis lobortis tellus, vel lacinia lorem ornare in. Nulla pellentesque, ex a facilisis placerat, enim diam rutrum nunc, vitae ullamcorper dolor neque a neque. Donec faucibus tincidunt sem, fermentum varius mauris lacinia eu. Nunc blandit lectus et efficitur lacinia. Sed vel justo diam. Praesent in efficitur dolor. Vestibulum nunc nisl, molestie nec tellus non, pretium laoreet urna. Sed et nisi vitae ipsum volutpat aliquet. Duis ullamcorper nunc tortor, vel egestas nisi sagittis in. Sed tincidunt fermentum tempor. Phasellus quis magna pharetra, suscipit erat nec, fermentum ante. Sed fringilla rutrum ornare. Praesent posuere mauris lectus, vitae euismod sapien aliquam eget.
+                        </p>
+                    </div>
+                    <div class="si">
+                        <h3> Sistemas de Informação </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida ex arcu, ut pellentesque felis maximus vel. Curabitur in justo ac sem luctus varius vel non ligula. Proin varius commodo nunc, quis feugiat odio vulputate nec. Sed eu orci neque. Fusce quis molestie leo, eu laoreet nulla. Praesent rutrum diam odio, vitae commodo urna placerat non. In sagittis lobortis tellus, vel lacinia lorem ornare in. Nulla pellentesque, ex a facilisis placerat, enim diam rutrum nunc, vitae ullamcorper dolor neque a neque. Donec faucibus tincidunt sem, fermentum varius mauris lacinia eu. Nunc blandit lectus et efficitur lacinia. Sed vel justo diam. Praesent in efficitur dolor. Vestibulum nunc nisl, molestie nec tellus non, pretium laoreet urna. Sed et nisi vitae ipsum volutpat aliquet. Duis ullamcorper nunc tortor, vel egestas nisi sagittis in. Sed tincidunt fermentum tempor. Phasellus quis magna pharetra, suscipit erat nec, fermentum ante. Sed fringilla rutrum ornare. Praesent posuere mauris lectus, vitae euismod sapien aliquam eget.
+                        </p>
+                    </div>
                 </div>
-                <div class="img-welcome">
-                    <img src="./img/3d-computer.png" alt="" srcset="">
-                </div>
-            </section>
+            </div>
         </main>
 
         <footer>
 
         </footer>
-    </div>
     <script src="./script.js"></script>
 </body>
 </html>

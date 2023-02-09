@@ -1,0 +1,29 @@
+.cursos {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    align-items: center;
+}
+
+.cursos h1 {
+    padding: 20px 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.cursos-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.cursos-body div {
+    padding: 30px;
+}
+
+.cursos-body div h3 {
+    margin-bottom: 10px;
+}

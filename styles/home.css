@@ -1,0 +1,128 @@
+section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100vh;
+    height: 100vh;
+    background: rgb(0,0,255);
+    background: linear-gradient(90deg, rgb(25, 27, 171) 45%, rgb(94, 118, 239) 56%, rgb(25, 27, 171) 69%);
+    border-radius: 50%;
+    transform-origin: bottom;
+    transform: translateX(-50%) scale(10);
+    margin-bottom: 80px;
+}
+
+section .home {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+} 
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo p {
+    font-size: 0.6rem;
+    margin-top: 0;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+nav ul li:hover {
+    background: rgb(119, 119, 119);
+}
+
+.welcome {
+    margin: 8% 0 2% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .welcome .title-welcome {
+        display: flex;
+        text-align: left;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 50%;
+    }
+
+        .title-welcome h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            background-image: linear-gradient(180deg, rgb(199, 108, 236) 15%, rgb(0, 225, 255) 79%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .title-welcome h3 {
+            font-size: 1rem;
+            font-weight: 300;
+        }
+
+    .img-welcome {
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+    .img-welcome img{
+        margin-top: -130px;
+        width: 80%;
+    }
+
+
+@media (max-width: 720px) { 
+    header {
+        flex-direction: column;
+    }
+    .welcome {
+        flex-direction: column;
+        width: 100%;
+        align-items:flex-end;
+    }
+
+    .welcome .title-welcome {
+        width: 100%;
+    }
+
+    .img-welcome img{
+        margin-top: -130px;
+        width: 100%;
+        z-index: -2;
+        opacity: 0.1;
+    }
+
+    section {
+        height: 70vh;
+    }
+
+    section::before{
+        margin-bottom: 0;
+    }
+
+
+}
