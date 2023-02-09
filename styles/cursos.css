@@ -10,13 +10,32 @@
 .cursos-body {
     display: flex;
     flex-direction: row;
+    justify-content: space-around; 
+    text-align: justify; 
+    gap: 3rem;
     flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: justify;
+}
+
+.cursos-body .tads {
+    flex: 1;
+}
+
+.cursos-body .si {
+    flex: 1;
 }
 
 .cursos-body div h3 {
     margin: 1rem 0 0.5rem 0;
+}
+
+.cursos-body a {
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(221, 219, 219);
+    font-size: 0.8rem;
+    border-radius: 10px;
 }
 
 @media (max-width: 720px) { 
