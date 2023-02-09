@@ -4,12 +4,7 @@
     background-color: white;
     color: black;
     align-items: center;
-}
-
-.areas h1 {
-    padding: 20px 0;
-    font-size: 3rem;
-    text-align: center;
+    margin-top: 3rem;
 }
 
 .areas-body {

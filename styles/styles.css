@@ -1,5 +1,4 @@
 *{
-    font-family: "Roboto", sans-serif !important;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -10,6 +9,7 @@
 body {
     background: white;
     color: black;
+    font-family: "Roboto", sans-serif !important;
 }
 
 a {
@@ -18,6 +18,12 @@ a {
 
 .container {
     padding: 0 10%;
+}
+
+.titulo-section {
+    padding: 20px 0;
+    font-size: 3rem;
+    text-align: center;
 }
 
 
