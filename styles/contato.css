@@ -1,0 +1,48 @@
+.contato {
+    margin-top: 5rem;
+}
+
+.contato-body {
+    display: flex;
+    min-height: 100px;
+    align-items: right;
+    padding: 2% 10%;
+    background: black;
+    text-align: right;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contato-body h1 {
+    color: white;
+}
+
+.contato-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato a {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contato i {
+    margin-right: 5px;
+}
+
+@media (max-width: 720px) { 
+    .contato-img {
+        min-width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .contato-body {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}

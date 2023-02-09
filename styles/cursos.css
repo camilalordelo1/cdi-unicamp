@@ -4,12 +4,7 @@
     background-color: white;
     color: black;
     align-items: center;
-}
-
-.cursos h1 {
-    padding: 20px 0;
-    font-size: 3rem;
-    text-align: center;
+    margin-top: 2rem;
 }
 
 .cursos-body {
