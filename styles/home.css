@@ -45,6 +45,7 @@ header {
 nav ul{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -99,6 +100,12 @@ nav ul li:hover {
     header {
         flex-direction: column;
     }
+
+    nav ul {
+        margin-top: 5px;
+        justify-content: space-around;
+    }
+
     .welcome {
         flex-direction: column;
         width: 100%;
@@ -116,8 +123,18 @@ nav ul li:hover {
         opacity: 0.1;
     }
 
+    
+    .title-welcome h1 {
+        font-size: 3rem;
+    }
+
+    .title-welcome h3 {
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+
     section {
-        height: 70vh;
+        height: 60vh;
     }
 
     section::before{
