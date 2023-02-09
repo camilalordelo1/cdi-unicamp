@@ -20,10 +20,13 @@
     text-align: justify;
 }
 
-.cursos-body div {
-    padding: 30px;
+.cursos-body div h3 {
+    margin: 1rem 0 0.5rem 0;
 }
 
-.cursos-body div h3 {
-    margin-bottom: 10px;
+@media (max-width: 720px) { 
+    .cursos-body div h3 {
+       text-align: center;
+    }
+    
 }
