@@ -93,3 +93,36 @@ nav ul li:hover {
         margin-top: -130px;
         width: 80%;
     }
+
+
+@media (max-width: 720px) { 
+    header {
+        flex-direction: column;
+    }
+    .welcome {
+        flex-direction: column;
+        width: 100%;
+        align-items:flex-end;
+    }
+
+    .welcome .title-welcome {
+        width: 100%;
+    }
+
+    .img-welcome img{
+        margin-top: -130px;
+        width: 100%;
+        z-index: -2;
+        opacity: 0.1;
+    }
+
+    section {
+        height: 70vh;
+    }
+
+    section::before{
+        margin-bottom: 0;
+    }
+
+
+}
