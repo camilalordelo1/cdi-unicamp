@@ -1,0 +1,44 @@
+.areas {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    align-items: center;
+}
+
+.areas h1 {
+    padding: 20px 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.areas-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.card-area {
+    background: rgb(25, 27, 171);
+    margin: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    min-width: 200px;
+    flex: 1;
+}
+
+.card-area h3 {
+    color: white ;
+}
+
+.card-area li {
+    margin-top: 5px;
+    color: rgb(0, 225, 255);
+}
+
+.card-area p {
+    margin-top: 20px;
+    color: white;
+}
